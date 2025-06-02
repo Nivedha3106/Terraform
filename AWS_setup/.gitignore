@@ -1,0 +1,5 @@
+# Ignore Terraform state and provider data
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
