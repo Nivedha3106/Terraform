@@ -18,7 +18,6 @@ Although I had the `AmazonEC2FullAccess` policy, my **IAM user had a permissions
    - Go to **AWS Console > IAM > Users > [Your User] > Permissions**.
 2. **Update the permissions boundary policy** to include the required action:
 
-```json
 {
   "Effect": "Allow",
   "Action": "ec2:RunInstances",
